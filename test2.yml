@@ -1,7 +1,7 @@
 ---
  - name: Please create the playbook
    hosts: all
-   gather_facts: flase
+   gather_facts: false
    tasks:
     - name: installing http
       yum:
